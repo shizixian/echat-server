@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: echat-server
+    env: node
+    plan: free
+    buildCommand: cd server && npm install
+    startCommand: cd server && node index.js
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: "8730"

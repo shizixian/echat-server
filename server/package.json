@@ -1,0 +1,17 @@
+{
+  "name": "echat-server",
+  "version": "1.0.0",
+  "description": "EChat Encrypted Messaging Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "node serve.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0",
+    "better-sqlite3": "^11.6.0",
+    "uuid": "^10.0.0",
+    "express": "^4.21.0",
+    "cors": "^2.8.5"
+  }
+}
