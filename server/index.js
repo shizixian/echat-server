@@ -361,4 +361,3 @@ server.listen(PORT, '0.0.0.0', () => {
  });
  
  // Update user's public key on login
- });
